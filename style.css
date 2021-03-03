@@ -1,0 +1,75 @@
+#container{
+    height: 75vh;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: #C8ADC0;
+  padding: 10px;
+  grid-gap:10px;
+}
+
+
+.card{
+  background-color: #D6FFB7;
+  box-shadow: 1px 1px 5px #2c3e50;
+  margin:10px;
+  font-family: 'Akaya Telivigala', cursive;
+  max-width:100%; 
+/* overflow-x: scroll;   */
+}
+
+.card:hover{
+  background-color: #BBB6DF;
+}
+
+
+.firstName{
+  font-size: 1.5vw;
+padding: 20px;
+}
+
+
+.email{
+  font-size: 1.5vw;
+
+padding-left: 20px;
+}
+
+.head{
+  display: inline-block;
+}
+
+
+.regenerate{
+  padding: 10px;
+  box-shadow: 1px 1px 5px #2c3e50;
+  margin:10px;
+  font-family: 'Akaya Telivigala', cursive;
+  background-color: #D6FFB7;
+
+}
+.regenerate:hover{
+    background-color: #BBB6DF;
+  }
+
+
+#custom-select{
+  box-shadow: 1px 1px 5px #2c3e50;
+  padding: 10px;
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: 'Akaya Telivigala', cursive;
+  padding: 0.25em 0.5em;
+  background-color: #9893DA;
+  margin:10px;
+  border-radius: 4px;
+}
+
+.Message{
+  font-family: 'Akaya Telivigala', cursive;
+
+}
+
+
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Balthazar" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body>
+<div>
+    <h1>Random People Generator - JQuery/<a  href="https://randomuser.me" target="_blank">API</a>/AJAX & Handlebars MiniProject</h1>
+    <div class="head">
+        <div class="custom-select" style="width:200px;">
+            </div>
+                <select id="custom-select">
+                    <option value="0">Select how Many People to Generate:</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <button class="regenerate">Generate</button>
+            <div class="Message">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+    </div>
+
+</div>
+    <script id="card-template" type="text/x-handlebars-template">
+    {{#each card}}
+    <div class="card">
+        <div class="firstName">{{firstName}} {{lastName}}</div>
+        <address>
+        <a  class="email" href="mailto:{{email}}">{{email}}</a>
+    </address>
+    </div>
+    {{/each}}
+
+</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+    <script src="https://kit.fontawesome.com/d51e812162.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script> <!-- You'll create this soon -->
+</body>
+
+</html>
