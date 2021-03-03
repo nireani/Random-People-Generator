@@ -29,7 +29,7 @@ const gettingData = function(n){
     }
     
 }
-gettingData(10)
+gettingData(12)
 
 const renderer = function (cards) {
     $("#container").empty()
